@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">DS</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="bt_IniciarJuego">Iniciar Juego</string>
+    <string name="textoTitulo1">JUEGO INTERACTIVO</string>
+    <string name="textoTitulo2">Preguntas/Respuestas</string>
+    <string name="bt_Iniciar_juego">Iniciar Juego</string>
+    <string name="bt_Resultados">Resultados</string>
+    <string name="bt_Enlace">Enlaces</string>
+    <string name="textoPregunta">Pregunta</string>
+    <string name="bt_respuesta1">Respuesta1</string>
+    <string name="bt_respuesta2">Respuesta2</string>
+    <string name="bt_respuesta3">Respuesta3</string>
+    <string name="bt_respuesta4">Respuesta4</string>
+    <string name="title_activity_seleccionar_actividad">Seleccionar Actividad</string>
+    <string name="title_activity_mostrar_resultados">Resultados</string>
+    <string name="botonImagen1">botonImagen1</string>
+    <string name="botonImagen2">botonImagen2</string>
+    <string name="botonImagen3" />
+    <string name="botonImagen4" />
+    <string name="botonImagenSonido" >valor</string>
+
+</resources>
