@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/relativeLayout1"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/FirstText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="fecha"
+        android:layout_weight="1.56">
+    </TextView>
+
+    <TextView
+        android:id="@+id/SecondText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="categoria"
+        android:layout_weight="1.95">
+    </TextView>
+
+    <TextView
+        android:id="@+id/ThirdText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="aciertos"
+        android:layout_weight="1.36">
+    </TextView>
+
+    <TextView
+        android:id="@+id/FourthText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="fallos"
+        android:layout_weight="0.15">
+    </TextView>
+</LinearLayout>

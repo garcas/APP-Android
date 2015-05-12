@@ -1,0 +1,81 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+android:paddingRight="@dimen/activity_horizontal_margin"
+android:paddingTop="@dimen/activity_vertical_margin"
+android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MenuPrincipal"
+    android:background="@drawable/background2">
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textAppearance="?android:attr/textAppearanceLarge"
+    android:text="Aplicación Interactiva"
+    android:id="@+id/titulo1"
+    android:layout_alignParentTop="true"
+    android:layout_centerHorizontal="true" />
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textAppearance="?android:attr/textAppearanceMedium"
+    android:text="Pregunta/Respuesta"
+    android:id="@+id/titulo2"
+    android:layout_below="@+id/titulo1"
+    android:layout_centerHorizontal="true" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/titulo2"
+        android:layout_alignParentEnd="true">
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="@string/bt_Enlace"
+            android:id="@+id/buttonEnlazar"
+            android:layout_marginTop="57dp"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:background="@drawable/botongeneral"
+            android:layout_below="@+id/buttonResultados"
+            android:layout_alignStart="@+id/buttonResultados"
+            android:layout_alignEnd="@+id/buttonResultados" />
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="@string/bt_Resultados"
+            android:id="@+id/buttonResultados"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:background="@drawable/botongeneral"
+            android:layout_marginTop="49dp"
+            android:layout_below="@+id/buttonIniciarJuego"
+            android:layout_alignStart="@+id/buttonIniciarJuego"
+            android:layout_alignEnd="@+id/buttonIniciarJuego" />
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="@string/bt_IniciarJuego"
+            android:id="@+id/buttonIniciarJuego"
+            android:textColor="#FFFFFF"
+            android:textSize="23sp"
+
+            android:textStyle="bold"
+            android:background="@drawable/botoniniciarjuego"
+            android:layout_below="@+id/scrollView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="29dp" />
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/scrollView" >
+
+        </ScrollView>
+    </RelativeLayout>
+
+</RelativeLayout>

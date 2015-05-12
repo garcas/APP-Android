@@ -1,0 +1,136 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+android:paddingRight="@dimen/activity_horizontal_margin"
+android:paddingTop="@dimen/activity_vertical_margin"
+android:paddingBottom="@dimen/activity_vertical_margin"
+tools:context="com.aplicacion.ds.ds.IniciarJuego"
+    android:background="@drawable/background2">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="300dp"
+        android:id="@+id/relativeLayout"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/bt_respuesta1"
+            android:id="@+id/botonRespuesta1"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="true" />
+
+        <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bt_respuesta2"
+        android:id="@+id/botonRespuesta2"
+        android:layout_below="@+id/botonRespuesta1"
+        android:layout_alignEnd="@+id/botonRespuesta1"
+        android:layout_marginTop="5dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_alignParentStart="true" />
+
+        <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bt_respuesta3"
+        android:id="@+id/botonRespuesta3"
+        android:layout_below="@+id/botonRespuesta2"
+        android:layout_alignEnd="@+id/botonRespuesta2"
+        android:layout_marginTop="5dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_alignParentStart="true" />
+
+        <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bt_respuesta4"
+        android:id="@+id/botonRespuesta4"
+        android:layout_below="@+id/botonRespuesta3"
+        android:layout_alignEnd="@+id/botonRespuesta3"
+        android:layout_marginTop="5dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_alignParentStart="true" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:id="@+id/botonImagen1"
+            android:layout_marginTop="2dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:contentDescription="@string/botonImagen1" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:id="@+id/botonImagen4"
+            android:layout_below="@+id/botonImagen3"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="2dp"
+            android:layout_alignParentEnd="true"
+            android:contentDescription="@string/botonImagen4" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:id="@+id/botonImagen3"
+            android:layout_below="@+id/botonImagen2"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="2dp"
+            android:layout_alignParentEnd="true"
+            android:contentDescription="@string/botonImagen3" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:id="@+id/botonImagen2"
+            android:layout_below="@+id/botonImagen1"
+            android:layout_marginTop="2dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:contentDescription="@string/botonImagen2" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="200dp"
+        android:layout_above="@+id/relativeLayout">
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/botonImagenSonido"
+            android:id="@+id/botonImagenSonido"
+            android:textSize="20dp"
+            android:layout_marginBottom="2dp"
+            android:textStyle="bold"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="true"
+            android:background="@drawable/botonimagen"
+            android:layout_alignParentBottom="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/textoPregunta"
+            android:id="@+id/textoPregunta"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:layout_above="@+id/botonImagenSonido" />
+    </RelativeLayout>
+
+
+</RelativeLayout>
